@@ -1,0 +1,76 @@
+[Groq Client] Initialized successfully.
+[Google Client] Initialized successfully.
+[Groq Client] Initialized successfully.
+Test Conductor Initialized.
+======== STARTING AUTOMATED TEST SUITE ========
+
+--- RUNNING: Short-Term Memory Test ---
+Choose a theme for your adventure:
+1: Classic Fantasy
+2: Cyberpunk Noir
+3: Cosmic Horror
+
+Starting a 'Classic Fantasy' adventure...
+
+  [Setup] Key fact established: The deliberate erasure of the clock's numerals, highlighting the time 4:22, appears almost deliberate, as if someone had carefully scrubbed away the other numerals to convey a message.
+  [Distraction] 3 turns of unrelated actions completed.
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+E0000 00:00:1760094872.964150   36556 alts_credentials.cc:93] ALTS creds ignored. Not running on GCP and untrusted ALTS is not enabled.
+[Persistent Memory] Narrative summary has been updated in 'saves/short_term_test_1722411d-84b6-4952-b3cb-93f8bb25e117/summary.txt'.
+  [Result] Test 'short_term_recall': PASSED
+
+...Pausing for 10 seconds before next test...
+
+--- RUNNING: Long-Term & NPC Memory Test ---
+Choose a theme for your adventure:
+1: Classic Fantasy
+2: Cyberpunk Noir
+3: Cosmic Horror
+
+Starting a 'Classic Fantasy' adventure...
+
+  [Setup] Long-term fact established: The inscription on the inside of the cover of the Starforged Chronicle is actually a riddle or message that serves as more than just a simple message, it holds secrets and deeper meaning related to the cosmos and the Stellar Spheres.
+  [Setup] NPC fact established: Elara has been managing the tavern for a while now.
+    (Running gameplay turn 3/24...)
+    (Running gameplay turn 4/24...)
+    (Running gameplay turn 5/24...)
+[Persistent Memory] Narrative summary has been updated in 'saves/long_term_test_c7c52f4f-e565-435f-8052-5de88f7cbe94/summary.txt'.
+    (Running gameplay turn 6/24...)
+    (Running gameplay turn 7/24...)
+    (Running gameplay turn 8/24...)
+    (Running gameplay turn 9/24...)
+    (Running gameplay turn 10/24...)
+[Persistent Memory] Narrative summary has been updated in 'saves/long_term_test_c7c52f4f-e565-435f-8052-5de88f7cbe94/summary.txt'.
+    (Running gameplay turn 11/24...)
+    (Running gameplay turn 12/24...)
+    (Running gameplay turn 13/24...)
+    (Running gameplay turn 14/24...)
+    (Running gameplay turn 15/24...)
+[Persistent Memory] Narrative summary has been updated in 'saves/long_term_test_c7c52f4f-e565-435f-8052-5de88f7cbe94/summary.txt'.
+    (Running gameplay turn 16/24...)
+    (Running gameplay turn 17/24...)
+    (Running gameplay turn 18/24...)
+    (Running gameplay turn 19/24...)
+    (Running gameplay turn 20/24...)
+[Persistent Memory] Narrative summary has been updated in 'saves/long_term_test_c7c52f4f-e565-435f-8052-5de88f7cbe94/summary.txt'.
+    (Running gameplay turn 21/24...)
+    (Running gameplay turn 22/24...)
+  [Gameplay] 20 turns of gameplay completed.
+  [Result] Test 'long_term_item_recall': PASSED
+  [Result] Test 'npc_memory_recall': PASSED
+
+...Pausing for 10 seconds before next test...
+
+--- RUNNING: Dynamic Quest Log Test ---
+Choose a theme for your adventure:
+1: Classic Fantasy
+2: Cyberpunk Noir
+3: Cosmic Horror
+
+Starting a 'Classic Fantasy' adventure...
+
+  [Setup] Ground truth quest established: Quest 'Find the Starheart Temple' with objective 'Discover the Starheart Temple deep within the long-abandoned forest, rumored to be inhabited by ancient spirits and fearsome beasts.' should be active.
+  [Result] Test 'quest_log_recall': PASSED
+
+======== AUTOMATED TEST SUITE COMPLETE ========
+Results have been saved to test_results.log
